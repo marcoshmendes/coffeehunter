@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<title>Coffee Hunter - HTML5 Game</title>
+	<meta charset="utf-8" />
+    <meta name="theme-color" content="#B88400">
+    <meta name="description" content="The Programmer 'MM' needs your help to get some coffee. Help him!">
+    <meta name="keywords" content="javascript game, coffee hunter, coffee hunter game, marcos mendes, marcoshmendes.com" />
+    <meta name="robots" content="index,follow" />
+
+    <link rel="shortcut icon" href="img/favicon.ico" />
+    <link rel="stylesheet" href="app.css" />
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-90111120-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-90111120-1');
+    </script>
+    
+</head>
+<body>
+        <canvas id="gameCanvas" width="600" height="507"></canvas>
+        <div id="info">
+            <p class="labelch">Time:</p>
+            <p class="valuech" id="seconds">30</p>
+            <p class="labelch">Coffee Count:</p>
+            <p class="valuech" id="counter">00</p>
+        </div>
+        <footer>Developed by <a href="http://www.marcoshmendes.com" target="_blank">Marcos Mendes</a> | This game is available for play only in laptops and desktops with keyboard.</footer>
+
+        <script src="js/jquery-1.10.1.min.js"></script>
+        <script src="js/app.js"></script>
+        <script src="js/counters.js"></script>
+</body>
+</html>
